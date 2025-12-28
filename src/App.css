@@ -40,3 +40,22 @@
 .read-the-docs {
   color: #888;
 }
+
+.avatar-list {
+  list-style: none;
+  padding: 0;
+}
+
+.avatar-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.avatar-list img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 1rem;
+}
