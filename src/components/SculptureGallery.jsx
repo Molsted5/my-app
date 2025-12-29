@@ -27,11 +27,13 @@ export default function Gallery() {
   let sculpture = sculptureList[index];
   return (
     <>
+      <h2>Sculptures Gallery</h2>
+
       <button onClick={handlePrevClick} disabled={!hasPrev}>Previous</button>
       <button onClick={handleNextClick} disabled={!hasNext}>Next</button>
 
-      <h2><i>{sculpture.name}</i> by {sculpture.artist}</h2>
-      <h3>({index + 1} of {sculptureList.length})</h3>
+      <h3><i>{sculpture.name}</i> by {sculpture.artist}</h3>
+      <h4>({index + 1} of {sculptureList.length})</h4>
       
       <button onClick={handleMoreClick}>{showMore ? 'Hide' : 'Show'} details</button>
       <br></br><br></br>

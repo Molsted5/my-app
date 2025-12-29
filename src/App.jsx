@@ -11,8 +11,8 @@ export default function App(){
     <>
     {/*<Gallery />
     <Profile />
-    <List />
-    <Toolbar />*/}
+    <List />*/}
+    <Toolbar />
     <AvatarList />
     <SculptureGallery />
     </>
