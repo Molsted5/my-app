@@ -1,16 +1,20 @@
+import './App.css'
 import Gallery from './components/Gallery';     // import by default
 import { Profile } from './components/Gallery'; // import by name 
 import List from './components/List';
 import AvatarList from './components/AvatarList';
-import './App.css'
+import Toolbar from './components/Toolbar';
+import SculptureGallery from './components/SculptureGallery'
 
 export default function App(){
   return(
     <>
-    <Gallery />
+    {/*<Gallery />
     <Profile />
     <List />
+    <Toolbar />*/}
     <AvatarList />
+    <SculptureGallery />
     </>
   );
 }

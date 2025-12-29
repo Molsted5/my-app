@@ -16,7 +16,7 @@ export default function Gallery() {
     <section>
       <h2>Amazing scientists</h2>
       <Profile size={80} />
-      <Profile size={120}/>
+      <Profile size={120} />
       <Profile size={150} />
     </section>
   );
